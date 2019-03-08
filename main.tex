@@ -1,0 +1,110 @@
+\documentclass[12pt]{article}
+\usepackage{times}
+\usepackage{geometry}
+\geometry{letterpaper, portrait, margin=1in}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem,amssymb}
+\usepackage{ragged2e}
+\usepackage{natbib}
+\newlist{thematic}{itemize}{8}
+\setlist[thematic]{label=$\square$}
+\usepackage{pifont}
+\usepackage{graphicx}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+\hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+
+\begin{document}
+\raggedright
+\huge
+Astro2020 Science White Paper \linebreak
+
+The fastest components in stellar jets \linebreak
+\normalsize
+
+\noindent \textbf{Thematic Areas:} \hspace*{60pt} $\square$ Planetary Systems \hspace*{10pt} $\done$ Star and Planet Formation \hspace*{20pt}\linebreak
+$\square$ Formation and Evolution of Compact Objects \hspace*{31pt} $\square$ Cosmology and Fundamental Physics \linebreak
+  $\square$  Stars and Stellar Evolution \hspace*{1pt} $\square$ Resolved Stellar Populations and their Environments \hspace*{40pt} \linebreak
+  $\square$    Galaxy Evolution   \hspace*{45pt} $\square$             Multi-Messenger Astronomy and Astrophysics \hspace*{65pt} \linebreak
+  
+\textbf{Principal Author:}
+
+Name:	Hans Moritz G\"unther
+ \linebreak						
+Institution: Massachusetts Institute of Technology
+Kavli Institute for Astrophysics and Space Research 
+ \linebreak
+Email: hgunther@mit.edu
+ \linebreak
+Phone:  617-253-8008
+ \linebreak
+ 
+\textbf{Co-authors:} (names and institutions)
+  \linebreak
+
+\textbf{Abstract  (optional):}
+
+
+\pagebreak
+\section{Introduction}
+Stars form when giant molecular clouds fragment and contract to proto-stars. Mass accretion onto those stellar cores proceeds via an accretion disk, while the surrounding envelope eventually disperses. In this stage the stars become visible at all wavelengths; the low-mass population is called classical T~Tauri stars (CTTS), the A and B star progenitors are Herbig Ae/Be stars (HAeBe). Jets and outflows are a natural consequence of disk accretion. They are not only common phenomena in star formation, but have been detected in most classes of accreting objects ranging from AGN through CV systems down to brown dwarfs. Outflows come in different shapes: There are slow wide-angle winds, often seen in molecular lines (e.g. H$_2$), faster winds, showing up in forbidden optical lines such as [\ion{O}{i}], and highly collimated jets, which often reach velocities up to 400~km~s$^{-1}$ \citep{1998AJ....115.1554E}.
+
+Different theoretical models of stellar winds \citep{1988ApJ...332L..41K,2005ApJ...632L.135M}, X-winds \citep{1994ApJ...429..781S} and disk winds \citep{1982MNRAS.199..883B,2005ApJ...630..945A} have been proposed. Ultimately the jet launching must be powered from the gravitational energy released in the accretion process. This is supported by the observation that the outflow rate is roughly one tenth of the accretion rate \citep{1990ApJ...354..687C,2008ApJ...689.1112C}, but it is unclear how the energy is converted.
+All those models rely on large-scale, ordered magnetic fields \citep{2009pjc..book...99F}, but jets are observed not only from solar-mass CTTS, which have strong magnetic fields in the kG range. HAeBes also launch jets, although only primordial magnetic fields are expected there, and often only weak fields, if any, can be detected \citep{2007A&A...463.1039H,2007MNRAS.376.1145W}. The formal limit on the magnetic field of HD~163296 is $-25\pm 27$~G \citep{2007A&A...463.1039H}. 
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\textwidth]{aa18592-11-fig2.png}
+\caption{Position-velocity diagrams (PVD) from long-slit observations with HST/STIS of the CTTS DG~Tau. The figure nicely shows how data from the X-ray to the optical is required to study how the different jet components are related to each other. The red dashed contour indicates the C~{\sc iv} emission and the horizontal dotted lines give the peak location of the two optical knots. The shaded area indicates the centroid of the inner X-ray jet, the blue line visualizes the velocity of the C~{\sc iv} emission, and the blue contours pertain to the central jet emission in the 1999 STIS data. From:\protect{\citet{2013A&A...550L...1S}}}
+\label{fig:CIV}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[height=6cm]{xjetmotion.png}
+\includegraphics[height=6cm]{xjetmotion2.png}
+\caption{Left: Two-color image, showing superposition of smoothed X-ray
+images for Winter 2005/06 (green) and for January 2010 (red), indicating jet longitudinal motion. Right: Calar Alto Potsdam Multi Aperture Spectrophotometer (PMAS) [S~{\sc ii}] image (green) superimposed on a smoothed X-ray image (red). From:\protect{\citet{2011ASPC..448..617G}}}
+\label{fig:Xray}
+\end{figure}
+
+\section{Questions for the 2020s}
+\subsection{Do jets rotate?}
+Disk accretion inevitably requires the redistribution of angular momentum, either within the disk or within the system. Only recently simulations became mature enough to demonstrate that mechanisms that have long been favored for angular momentum removal cannot operate in important regions of the disks, e.g.\ the magneto-rotational instability (MRI) shuts down in the ''dead zone``. This  leaves jets as the only known alternative mechanism to remove angular momentum. These magneto-centrifugally launched jets originate in the inner region around the central object, within a few au for typical stars. Since post-shock temperatures scale with $v^2_\mathrm{shock}$, the inner most region crucial for the interaction of the accreting object and the disk, requires observations in the UV range where the dominant cooling agents are situated.
+As the extinction increases towards shorter wavelength, the contrast between the star and the jet, which is less extincted than the star itself, is much more favorable in the UV. So far, results for jet rotation are inconclusive due to limited exposure times and sample sizes. 
+
+\subsection{Jet launching and collimation}
+Jet width and velocity increase with distance to the star. The exact profile depends on the magnetic field and the conditions in the launching region; to turn this around, if we can measure velocity profiles in the jet, we can infer the conditions around the launching radius which will remain inaccessible to direct observations even for the largest telescopes becoming available in the 2020s.
+
+\subsection{How does jet launching work in objects with weak magnetic fields?}
+To study these questions, observations of the fastest jet components are most valuable, because faster components are launched closer to the star \citep{2003ApJ...590L.107A}. If we find velocities of 500~km/s and assume reasonable values for the toroidal jet velocity, the launching region must be within $10\;R_*$ according to \citet{2003ApJ...590L.107A}. This approximately corresponds to the inner edge of the disk and thus it would rule out a disk wind.
+
+\section{Required capabilities and international context}
+To probe all the layers of the ``onion'', we need observations in a large wavelength range from the radio up to X-rays. For all observations, the three key factors are special resolution to actually resolve the jet and features like shock surfaces within, a good signal-to-noise to identify weak, extended emission, and spectral resolution to measure the kinematics of the emission lines. The better an observatory does on these metrics, the finer detail can be resolved and the more jets are accessible to study. Several star forming regions can be found in about 150~AU distance. For those, we need resolutions on the level of about 0.1-0.5 arcseconds to resolve the jet perpendicular to its axis and to identify shock fronts and knots; better spatial resolution could reveal sub-structure in the jet components, if it exists. Imaging is good, but it does not tell us where the goes moves, if the jet rotates, and in which direction a shock expands. To this end, we to measure the centroid and width of an emission lines, or even better, resolve it into several kinematic components. Turbulence probably broadens all emission lines in jets to some degree, so there is little additional benefit of resolving lines into more than about ten components. For the slow moving jet layers seen in the radio or the IR, this requires resolution on the level of a few km/s, for the faster flows seen in the UV and X-rays, a resolution of several 10s of km/s is sufficient.
+
+\subsection{Observational capabilities}
+For all wavelengths accessible from the ground, great progress has been made in the last decade and projects well into the planning stages or even in constructions, like the US- or ESO led giant telescopes, will provide instruments that improve significantly over existing instrumentation. Integral field units (IFUs) coupled with adaptive optics are the workhorses for jet observations in the IR and optical, and the next generation of these instruments as planned to the extremely large telescopes match the requirements spelled out above. On the other hand, in the UV and X-rays, the situation looks dire. 
+
+No X-ray instrument ever flown had the capability to kinematically resolve jet emission lines. Worse, jet observations in X-rays are neigh impossible today, since Chandra is the only instrument capable of resolving the jets from their central stars and increasing contamination on the detectors has reduced Chandra sensitivity of soft X-rays by several magnitudes compared to its launch. Upcoming X-ray observatories like Athena or e-ROSITA prioritize collecting area over spatial resolution and will not be able to resolve stellar jets from their central stars. \textbf{New X-ray instrumentation with order of magnitude improvements over exiting instruments is needed to spatially and spectrally resolve stellar jets.}
+
+In the UV, HST/STIS is currently the only instrument available for observations of stellar jets; some examples are presented above where STIS is used to resolve kinematic structure in the jet using long-slit observations. However, without an IFU, we are limited to a single slice of the jet per observation. It is possible to step the long-slit on the sky, but this is prohibitively expensive in observing time for all but one or two of the brightest jets. In the UV, we have shown how much physical information we can extract from the spectra, but crucial questions like jet rotation and comparative studies of a sample of jets are just outside the capabilities of the current instrumention. \textbf{New UV instrumentation with a modest improvement in spectral and spatial resolution is useful, but most important is an increase in sample size and observing efficiency (e.g. by using and IFU) such that a sample of jets can be monitored in time. }
+
+\subsection{Theory and Modelling}
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.5\textwidth]{apj395310f4_lr.jpg}
+\caption{Numerical simulation of a shock in a a protostellar jet. Shown is a density map (left panel), an enlargement of the base of the computational domain, and the X-ray map synthesized from the model (upper panel on the right).  From:\protect{\citet{2011ApJ...737...54B}}}
+\label{fig:CIV}
+\end{figure}
+
+While the authors of this white paper are mostly observers, we realize the crucial role that theory and modelling plays in understanding stellar jets. Explaining jet launching and collimation has been an issue in MHD models for quite some time and several groups are working on that; similarly jets propagating into the interstellar medium have been simulated in different contexts, but so far those models use pretty simple jet cross-sections, e.g.\ just a top-hat profile. Only one model for the X-ray generation in stellar jets, the diamond shock (see Fig.~\ref{fig:shock}), has been investigated in numerical simulations, a second model has been looked at at least semi-analytically. While the diamond shock does explain the main observed properties of the X-ray emission at the low-resolution we have so far, it may not be the only model to do so. It will be a challenge for the community in the coming decade to systematically confirm or rule-out jet models through detailed numerical simulations. \textbf{Thus, theoretical work needs be the supported with infrastructure, financial support for Post-Docs and staff, and mechanisms that increase the interaction between observers and theorists.}
+
+\pagebreak
+\textbf{References}
+
+
+
+\end{document}
+
